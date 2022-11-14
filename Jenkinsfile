@@ -1,7 +1,7 @@
 pipeline {
 	agent {
 		docker {
-			image 'myjenkins-blueocean'
+			image 'composer:latest'
 		}
 	}
 	stages {
